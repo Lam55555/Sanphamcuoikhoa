@@ -1,0 +1,9 @@
+.thanhtiemkiem{
+    display: flex;
+    justify-content: center;
+background-color: aqua;
+}
+.hide{
+    display: none;
+}
+.imgs{width: 30px; height: 30px;}
