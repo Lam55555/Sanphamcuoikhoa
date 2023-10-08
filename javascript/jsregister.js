@@ -1,44 +1,34 @@
-const usernameInput = document.getElementById("username").value;
-const  password = document.getElementById("password").value;
-const btnDangnhap = document.getElementById("buttonDangnhap");
-const btnCheck
-function saveData() {
-  if (data != null) {
-      localStorage.setItem('savedData', data);
-      alert('Dữ liệu đã được lưu vào Local Storage.');
-      displayData();
+let accounts = [];
+const btnDangky = document.getElementById("buttonDangnhap")
+btnDangky.addEventListener('click',(e)=>
+ {
+  e.preventDefault();
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+
+  if (username && password) {
+      const existingAccount = accounts.find(account => account.username === username);
+
+      if (existingAccount) {
+          alert('Username đã tồn tại. Vui lòng chọn username khác.');
+      } else {
+          const account = { username, password };
+          accounts.push(account);
+          localStorage.setItem('accounts', JSON.stringify(accounts));
+          alert('Đăng ký thành công!');
+          // window.location.href=""
+      }
   } else {
-      alert('Vui lòng nhập dữ liệu trước khi lưu.');
+      alert('Vui lòng nhập username và password.');
   }
-}
-
-function displayData() {
-  const savedData = localStorage.getItem('savedData');
-  const outputElement = document.getElementById('output');
-
-  if (savedData != null) {
-      outputElement.textContent = `Dữ liệu đã lưu: ${savedData}`;
-  } else {
-      outputElement.textContent = 'Chưa có dữ liệu được lưu.';
+ }
+)
+document.addEventListener('DOMContentLoaded', function() {
+  if (localStorage.getItem('accounts')) {
+      accounts = JSON.parse(localStorage.getItem('accounts'));
   }
+});
+function change()
+{
+  window.location.href="/page(html)/login.html"
 }
-
-function deleteData() {
-  localStorage.removeItem('savedData');
-  alert('Dữ liệu đã bị xóa khỏi Local Storage.');
-  displayData();
-}
-
-function checkExistence() {
-  const inputValue = document.getElementById('dataInput').value
-  const savedData = localStorage.getItem('savedData');
-
-  if (savedData != null && inputValue == savedData) {
-      alert('Dữ liệu đã tồn tại trong Local Storage.');
-  } else {
-      alert('Không có dữ liệu nào được lưu.');
-  }
-}
-
-// Gọi hàm displayData() để hiển thị dữ liệu từ Local Storage
-displayData();

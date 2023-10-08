@@ -1,24 +1,20 @@
-const email = document.querySelector(".nhapEmail");
-const tuoi = document.querySelector(".nhaptuoi");
+const username = document.getElementById("username").value;
+const password = document.getElementById("password").value;
 const btnLogin = document.querySelector(".login__signInButton");
 var bt= "Link dẫn tới bài tập".link("/checkpoint/checkpoint.html")
 // validation form login
 
 btnLogin.addEventListener("click", (e) => {
   e.preventDefault();
-  if (email.value === ""|| tuoi.value === "") {
+  if (username.value === ""|| password.value === "") {
     alert("vui lòng không để trống");
   } else {
-    const user = JSON.parse(localStorage.getItem(email.value));
-    console.log(user);
+    const user = JSON.parse(localStorage.getItem('accounts'));
     if (
-      user.email === email.value  &&
-      user.age === tuoi.value
+      user.username === username.value  &&
+      user.password === password.value
     ) {
-      console.log(user.email + " user.email");
-      console.log(email.value + " email.value");
-      console.log(user.age + " user.age");
-      console.log(tuoi.value + " tuoi.value");
+      alert("Đăng ký thành công")
     } else {
       alert("Đăng Nhập Thất Bại");
     }
