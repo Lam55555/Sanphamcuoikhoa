@@ -3,13 +3,13 @@ products = {
         {
             productName: "LEVENTS® COLORFUL PAINT TEE/ GREY",
             price: "35",
-            image: "https://product.hstatic.net/1000378196/product/z3455500959841_f71631b2ce35e8032e4207941a5b602e_9ed5fecfe9b445bca6554bb101274011_master.jpg"
+            image: "../img/bag1.jpg"
         },
 
         {
             productName: "LEVENTS® COLORFUL PAINT TEE/ BLACK",
             price: "34",
-            image: "https://product.hstatic.net/1000378196/product/z3455501297595_3f6b310d318f366593980e24ddf77594_24a562f8db3f48bb99f9fe5f04c6455b_master.jpg"
+            image: "../img/hoa1.jpg"
         },
 
         {
