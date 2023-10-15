@@ -17,6 +17,7 @@ if (username === ""|| password === "") {
     if(username==account.username&&password==account.password) 
     {
    window.location.href="/Lam/html/register.html"
+   localStorage.setItem("login",username)
     }
         
     else {
