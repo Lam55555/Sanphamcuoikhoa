@@ -1,4 +1,4 @@
-let accounts = [];
+let accounts = [];//tạo mảng accounts
 const btnDangky = document.getElementById("buttonDangnhap")
 btnDangky.addEventListener('click',(e)=>
  {
@@ -6,7 +6,7 @@ btnDangky.addEventListener('click',(e)=>
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  if (username && password) {
+  if (username && password) { //nếu username và pass rỗng
       const existingAccount = accounts.find(account => account.username === username);
 
       if (existingAccount) {
@@ -16,7 +16,7 @@ btnDangky.addEventListener('click',(e)=>
           accounts.push(account);
           localStorage.setItem('accounts', JSON.stringify(accounts));
           alert('Đăng ký thành công!');
-          // window.location.href=""
+          window.location.href="/Lam/html/login.html"
       }
   } else {
       alert('Vui lòng nhập username và password.');
@@ -28,7 +28,3 @@ document.addEventListener('DOMContentLoaded', function() {
       accounts = JSON.parse(localStorage.getItem('accounts'));
   }
 });
-function change()
-{
-  window.location.href="/page(html)/login.html"
-}
