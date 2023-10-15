@@ -9,19 +9,18 @@ btnLogin.addEventListener("click", (e) => {
   accounts = JSON.parse(localStorage.getItem("accounts"));
   const username = document.getElementById("username").value;
 const password = document.getElementById("password").value;
-if (username === ""|| password === "") {
-  alert("vui lòng không để trống");
-}
   for(const account of accounts){
-    
-    if(username==account.username&&password==account.password) 
+    if (username === ""|| password === "") {
+      document.getElementById("check").innerHTML=("vui lòng không để trống");
+    }
+    else if(username==account.username&&password==account.password)
     {
    window.location.href="/Lam/html/register.html"
    localStorage.setItem("login",username)
     }
         
     else {
-        console.log("đăng nhập thất bại");
+        document.getElementById("check").innerHTML="Đăng nhập thất bại";
       }
       
     }
