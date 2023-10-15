@@ -1,0 +1,40 @@
+
+.LOGIN{
+background-color: blue;
+width: 100%;
+height: 40px;
+
+}
+.login{
+    display: flex;
+    justify-content: end;
+}
+.daLogin{
+display: flex;
+justify-content: end;
+background-color: rgb(163, 178, 178);
+
+justify-items: center;
+width: 100%;
+height: 50px;
+}
+.us{
+    color: brown;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#bag1{
+    width: 300px;
+    height: 500px;
+    margin: ;
+}
+.products{
+    display: flex;
+  
+}
+.hienthi{
+    display: flex;
+    flex-direction: column;
+}
