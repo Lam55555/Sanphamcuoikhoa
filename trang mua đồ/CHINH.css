@@ -18,6 +18,7 @@ justify-items: center;
 width: 100%;
 height: 50px;
 }
+
 .us{
     color: brown;
     display: flex;
@@ -25,11 +26,7 @@ height: 50px;
     justify-content: center;
     align-items: center;
 }
-#bag1{
-    width: 300px;
-    height: 500px;
-
-}
+/*Phần trên là login */
 .products{
     display: flex;
   
@@ -37,4 +34,31 @@ height: 50px;
 .hienthi{
     display: flex;
     flex-direction: column;
+}
+#bag1{
+    width: 300px;
+    height: 500px;
+    padding-left:20px ;
+
+}
+/*sản phẩm */
+.buyproduct{
+    background-color: antiquewhite;
+    height: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.muahang{
+    width: 200px;
+    height: 40px;
+    border-radius: 500px;
+    color: rgb(226, 226, 100);
+    background-color: whitesmoke;
+    font-size: larger;
+}
+.muahang:hover{
+    background-color: green
+
 }
