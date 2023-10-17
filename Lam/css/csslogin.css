@@ -1,27 +1,28 @@
-.left1{margin-top: 20px; float: left; width: 130px; height:30px; text-align: right;  font-size: 20px; display: flex;justify-content: end; align-items: center;} 
-.right1{ float: right; width: auto; height: 30px; margin-top: 20px;}
-.right1 input{height: 24px;border-bottom: 1px;}
+#formdangky{width: 415px; margin: auto; }
 
+.username{margin-top: 15px; font-size: 15px;}
+.inputusername{ font-size: 15px;} 
 
-.left{float: left; width: 130px; height:30px; text-align: right;  font-size: 20px; margin-top: 20px; display: flex;justify-content: end; align-items: center;} 
-.right{ float: right; width: auto; height: 30px; margin-top: 20px; }
-.right input{ height: 24px;}
+.password{ font-size: 15px; margin-top: 15px;}
+.inputpassword{ font-size: 15px;}
 
+.login__signInButton{border-radius: 20px 20px; background-color: rgb(2, 163, 2); width: 400px;}
+.login__signInButton:hover{background-color: white;}
 
-.login__container{border: 1px solid red; width: 600px; margin: auto; margin-top: 50px;}
-.clear{clear: both;}
-#formdangky{width: 500px; margin: auto;}
-.nhapEmail{}
-.nhapUsername{}
-.nhapPassword{}
+input{border: none; border-bottom: 1px solid black;}
 
-.hdangnhap{text-align: center; font-size: 20px; background-color: #F5F5F5; height: 30px;}
+.link{margin-top: 10px; display: flex; justify-content: center;}
+.link a:hover{color: blue; text-decoration:underline;}
+.forgotpass{text-align: center;}
+.forgotpass a{color: gray;}
+
+.login__container{border: 2px solid black; width: 550px; margin: auto; margin-top: 50px;}
+
+.hdangnhap{font-size: 26px; background-color: #F5F5F5; text-align: center;}
 .button{ display: flex;justify-content: center;}
 button{height: 35px; width: 120px; margin-left: 10px; cursor: pointer;}
 a{text-decoration: none; color: black;}
 .menu{ height: 30px; background-color: #F6F7F8; display: flex;}
-*{margin: 0;}
-.menudangnhap{}
+body{margin: 0; background-image: url(/https://codepen.io/Lewitje/pen/BNNJjo); background-repeat: no-repeat;}
+
 .menudangky{margin-left: 30px; color: blue; font-size: 18px;}
-.login__signInButton{border-radius: 20px 20px; background-color: rgb(2, 163, 2); width: 400px;}
-.login__signInButton:hover{background-color: white;}
