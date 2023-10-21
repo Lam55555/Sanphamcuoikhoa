@@ -10,7 +10,7 @@ btnDangky.addEventListener('click',(e)=>
       const existingAccount = accounts.find(account => account.username === username);
 
       if (existingAccount) {
-          alert('Username đã tồn tại. Vui lòng chọn username khác.');
+        document.getElementById("check").innerHTML=('Username đã tồn tại. Vui lòng chọn username khác.');
       } else {
           const account = { username, password };
           accounts.push(account);
@@ -19,7 +19,7 @@ btnDangky.addEventListener('click',(e)=>
           window.location.href="/Lam/html/login.html"
       }
   } else {
-      alert('Vui lòng nhập username và password.');
+      document.getElementById("check").innerHTML="Vui lòng nhập đầy đủ thông tin"
   }
  }
 )
