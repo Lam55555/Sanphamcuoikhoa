@@ -17,7 +17,7 @@ const password = document.getElementById("password").value;
     }
     else if(username==account.username&&password==account.password)
     {
-   window.location.href="/trang mua đồ/CHINH.html"
+   window.location.href="/Bach/trang mua đồ/CHINH.html"
    localStorage.setItem("login",username)
     }
         

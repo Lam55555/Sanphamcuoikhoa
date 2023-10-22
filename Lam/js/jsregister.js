@@ -5,13 +5,18 @@ btnDangky.addEventListener('click',(e)=>
   e.preventDefault();
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
-
+  const ckPass = document.getElementById("checkPassword").value
   if (username && password) { //nếu username và pass rỗng
       const existingAccount = accounts.find(account => account.username === username);
 
       if (existingAccount) {
         document.getElementById("check").innerHTML=('Username đã tồn tại. Vui lòng chọn username khác.');
-      } else {
+      } 
+      else if(ckPass!=password)
+      {
+        alert("mật khẩu xác nhận không trùng khớp")
+      }
+      else {
           const account = { username, password };
           accounts.push(account);
           localStorage.setItem('accounts', JSON.stringify(accounts));
