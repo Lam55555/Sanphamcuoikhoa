@@ -10,12 +10,13 @@ btnDangky.addEventListener('click',(e)=>
       const existingAccount = accounts.find(account => account.username === username);
 
       if (existingAccount) {
-        document.getElementById("check").innerHTML=('Username đã tồn tại. Vui lòng chọn username khác.');
+        document.getElementById("checkusername").innerHTML=('Username đã tồn tại. Vui lòng chọn username khác.');
+        if(ckPass!=password)
+        {
+          document.getElementById("checkconfPass").innerHTML=("mật khẩu xác nhận không trùng khớp")
+        }
       } 
-      else if(ckPass!=password)
-      {
-        alert("mật khẩu xác nhận không trùng khớp")
-      }
+      
       else {
           const account = { username, password };
           accounts.push(account);

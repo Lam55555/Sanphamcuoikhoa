@@ -30,3 +30,6 @@ body{margin: 0;}
 .right{border: 0px solid gray;}
 
 .Login{background-color: white; width: 550px; height: auto; margin: auto;}
+
+#check{color: red;}
+#checkusername{color: red;}

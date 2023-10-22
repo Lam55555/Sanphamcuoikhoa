@@ -13,7 +13,7 @@ const password = document.getElementById("password").value;
   {
 
     if (username === ""|| password === "") {
-      document.getElementById("check").innerHTML=("vui lòng không để trống");
+      document.getElementById("check").innerHTML="<br>"+("vui lòng không để trống");
     }
     else if(username==account.username&&password==account.password)
     {
