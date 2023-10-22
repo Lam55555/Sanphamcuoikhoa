@@ -9,11 +9,11 @@ height: 40px;
     display: flex;
     justify-content: end;
 }
+/*login*/
 .daLogin{
 display: flex;
 justify-content: end;
 background-color: rgb(163, 178, 178);
-
 justify-items: center;
 width: 100%;
 height: 50px;
@@ -72,4 +72,13 @@ height: 50px;
 .advertisement{
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
+}
+#BAG12{
+    width: 350px;
+    height: 350px;
+}
+#Bag13{
+    width: 350px;
+    height: fit-content;
 }
