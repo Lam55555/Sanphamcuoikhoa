@@ -12,7 +12,7 @@ height: 40px;
 /*login*/
 .daLogin{
 display: flex;
-justify-content: end;
+justify-content: space-around;
 background-color: rgb(163, 178, 178);
 justify-items: center;
 width: 100%;
