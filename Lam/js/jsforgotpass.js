@@ -1,36 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const products = document.querySelectorAll('.product');
+  const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-// const upd = document.getElementById("upd");
-// upd.addEventListener("click",(e)=>
-// {
-//     e.preventDefault();
-//     var accounts = JSON.parse(localStorage.getItem("accounts"))
-//     const reUsername = document.getElementById("reUsername").value;
-// const rePass = document.getElementById("rePass").value;
-// for(const account of accounts )
-// {
-//     if(reUsername==account.username)
-//     {
-//         account.password= account.password.replace(account.password,rePass)
-//         console.log("da upd")
-//     }
-//     else
-//     {
-//         console.log("sai")
-//     }
-// }
-// })
-const password1El = document.getElementById('password1');
-const password2El = document.getElementById('password2');
-let passwordsMatch = false;
+  products.forEach(product => {
+      const addToCartButton = product.querySelector('.add-to-cart');
+      const productName = product.dataset.name;
 
-// Check to see if passwords match
-if (password1El.value === password2El.value) {
-  passwordsMatch = true;
-  password1El.style.borderColor = 'green';
-  password2El.style.borderColor = 'green';
-} else {
-  passwordsMatch = false;
-  password1El.style.borderColor = 'red';
-  password2El.style.borderColor = 'red';
-  return;
-}
+      addToCartButton.addEventListener('click', function() {
+          cart.push(productName);
+          localStorage.setItem('cart', JSON.stringify(cart));
+          alert(`Đã thêm ${productName} vào giỏ hàng!`);
+      });
+  });
+});

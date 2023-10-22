@@ -64,6 +64,7 @@ for(let i of products.data) {
     imgContainer.classList.add("imgContainer")
 
     let image = document.createElement("img")
+    // image.classList.add("imgs")
     image.setAttribute("src",i.image)
     // setAttribute lấy thuộc tính của img bên html
     imgContainer.appendChild(image)
