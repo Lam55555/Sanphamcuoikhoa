@@ -1,35 +1,37 @@
 #formdangky{width: 415px; margin: auto;}
 
 .username{margin-top: 15px; font-size: 15px;}
-.inputusername{ font-size: 15px;} 
+.inputusername{ font-size: 15px; } 
 
 .password{ font-size: 15px; margin-top: 15px;}
 .inputpassword{ font-size: 15px;}
 
 button{border-radius: 20px 20px; background-color: rgb(2, 163, 2); width: 350px; cursor: pointer; height: 30px; margin-top: 10px; margin-bottom: 10px; }
-.signin:hover{background-color: white;}
+.signin:hover{background:transparent}
 
-input{border: none; border-bottom: 1px solid black;}
+input{border:none; border-bottom: 1px solid black; background: transparent;}
 
 .link a{color: blue; text-decoration: underline;}
 .link a:hover{color: red; text-decoration:underline;}
 .forgotpass{text-align: center;}
 .forgotpass a{color: gray;}
 
-.login__container{border: 1px solid black; width: 550px; margin: auto;}
+.login__container{border: 1px solid black; width: 550px; margin: auto; background: transparent; backdrop-filter: blur(20px); margin-top: 70px;}
 
-.hdangnhap{font-size: 26px; background-color: #F5F5F5; text-align: center;}
+.hdangnhap{font-size: 26px; background:transparent; text-align: center;}
 .button{ display: flex;justify-content: center;}
 
 a{text-decoration: none; color: black;}
-.menu{ height: 30px; background-color: #F6F7F8; display: flex;}
-body{margin: 0;}
+.menu{ height: 30px; display: flex;}
+body{margin: 0; background: url(/Lam/img/img.jpg);}
 .footer{text-align: center;}
 .menudangky{margin-left: 30px; color: blue; font-size: 18px;}
 .left{width: 275px; border: 1px solid gray; background-color: gray;}
 .right{border: 0px solid gray;}
 
-.Login{background-color: white; width: 550px; height: auto; margin: auto;}
+.Login{background:transparent; width: 550px; height: auto; margin: auto;}
 
 #check{color: red;}
 #checkusername{color: red;}
+
+.checkPass{margin-top: 15px; font-size: 15px;}
