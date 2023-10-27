@@ -28,8 +28,11 @@ const password = document.getElementById("password").value;
     }
   }  
 );
-const btnRe = document.getElementById("REGISTER");
-btnRe.addEventListener("click",(e)=>{
-  e.preventDefault();
-  window.location.href="/Lam/html/register.html"
-})
+
+
+$(document).ready(function()
+{
+  alert("ok")
+}
+)
+  

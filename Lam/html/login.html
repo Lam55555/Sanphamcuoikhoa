@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/Lam/css/csslogin.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,15 +25,17 @@
       <form id="formdangky">
         <div class="username">USERNAME:</div>
 
+        <span class="icon" id="usern"><i class="fa-solid fa-user"></i></span>
+        
         <input type="text" class="inputusername" size="50px" id="username">
 
         <div class="password">PASSWORD:</div>
-
+        <span class="icon" id="icone"><i class="fa-solid fa-lock"></i></span>
         <div><input type="password" class="inputpassword" size="50px" id="password"></div>
 
         <div id="check"></div> 
         <div class="none">
-          <label><input type="checkbox" >Remember me</label>
+          <label><input type="checkbox" required >Remember me</label>
           <a href="/Lam/html/forgotpass.html" class="forgotpass">Forgot your password</a>
         </div>
         
@@ -50,7 +53,7 @@
 
 
 
-
+  
 </body>
 <script src="/Lam/js/jslogin.js"></script>
 </html>
