@@ -10,7 +10,7 @@ input{border: none; border-bottom: 1px solid black; background: transparent; fon
 
 .login__container{ width: 530px; margin: auto; border: 2px solid rgba(255, 255,255, .2); backdrop-filter:blur(20px); background: transparent; height: 350px; margin-top: 20px;}
 
-.hdangnhap{font-size: 26px; background:transparent; text-align: center;}
+.hdangnhap{font-size: 26px; background:transparent; text-align: center; margin-top: 10px;}
 
 button{height: 35px; cursor: pointer;}
 
@@ -29,7 +29,6 @@ body{margin: 0; background: url(/Lam/img/img.jpg); font-family: Arial, Helvetica
 
 .icon{ width: 400px; position: absolute; right: -300px; margin-top: 6px;}
 
-/* .Login{ margin-top: 20px;} */
 
 
 .container{

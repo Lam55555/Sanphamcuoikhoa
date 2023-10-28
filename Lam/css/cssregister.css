@@ -1,15 +1,12 @@
 #formdangky{width: 415px; margin: auto;}
+#thongtin{margin-top: 15px; font-size: 15px;}
 
-.username{margin-top: 15px; font-size: 15px;}
-.inputusername{ font-size: 15px; } 
-
-.password{ font-size: 15px; margin-top: 15px;}
-.inputpassword{ font-size: 15px;}
+.warn{color: red;}
 
 button{border-radius: 20px 20px; background-color: rgb(2, 163, 2); width: 415px; cursor: pointer; height: 35px; margin-top: 10px; margin-bottom: 10px; }
 .signin:hover{background:transparent}
 
-input{border:none; border-bottom: 1px solid black; background: transparent;}
+input{border:none; border-bottom: 1px solid black; background: transparent; font-size: 15px; margin-top: 5px;}
 
 .link a{color: blue; text-decoration: underline;}
 .link a:hover{color: red; text-decoration:underline;}
@@ -31,12 +28,12 @@ body{margin: 0; background: url(/Lam/img/img.jpg);}
 
 *{font-family: Arial, Helvetica, sans-serif;}
 
+.icon{ width: 400px; position: absolute; right: -300px; margin-top: 6px;}
 .Login{background:transparent; width: 550px; height: auto; margin: auto;}
 
-#check{color: red;}
-#checkusername{color: red;}
 
-.checkPass{margin-top: 15px; font-size: 15px;}
+
+
 
 
 
