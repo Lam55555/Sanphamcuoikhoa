@@ -5,10 +5,10 @@ function AnimatedToggle(){
 
     if(toggle.classList.contains("active")){
         text.innerHTML ="ON";
-        document .body .style .backgroundImage = "url('/Lam/img/img.jpg')"
+        document .body .style .backgroundImage = "url('/Lam/img/background-đơn-giản-và-đẹp-cho-điện-thoại-sony.jpg')"
     }
     else{
         text.innerHTML="OFF";
-        document .body .style  = "white"
+        // document .body .style  = "white"
     }
 }
