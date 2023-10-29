@@ -56,7 +56,6 @@ function change()
     ic_lock.classList.add("icon-hidden")
     ic_hidden.classList.remove('icon-hidden')
 
-    console.log("as");
   }
   else
   {
@@ -65,7 +64,6 @@ function change()
     ic_hidden.classList.add('icon-hidden')
     ic_lock.classList.remove('icon-hidden')
     
-    console.log("a");
   }
   
 
