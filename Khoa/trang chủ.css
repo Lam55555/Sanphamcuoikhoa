@@ -151,11 +151,23 @@ speed {
   width: 100%;
   height: 200px;
 }
-h6{
-font-size: 23px;
-left: 50px;
+.flod {
+  border: 1px solid gray;
+  color: gray;
 }
-.forest{
- width:30%;
- 
+h6 {
+  font-size: 23px;
+  color:black;
+}
+.forest {
+  width: 30%;
+}
+.bo {
+  height: 37%;
+}
+.hold {
+  border: 1px solid gray;
+}
+.bad{
+  border: 1px solid gray;
 }
