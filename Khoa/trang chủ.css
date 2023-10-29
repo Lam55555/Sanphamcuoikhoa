@@ -112,7 +112,62 @@ span {
   border-radius: 10px;
   width: 10%;
 }
-.bo {
+.feature {
   display: flex;
-  
+  padding: 64px 32px;
+  gap: 16px;
+}
+h4 {
+  font-size: 40px;
+}
+siu {
+  font-size: 24px;
+}
+.feature-content {
+  width: 46%;
+  padding: 100px;
+  font-size: 150%;
+}
+
+.boder {
+  height: 19px;
+}
+.img {
+  width: 510px;
+  height: 350px;
+  border-radius: 5%;
+}
+.future-content {
+  text-align: center;
+  font-size: 35px;
+}
+speed {
+  font-size: 23px;
+}
+
+.fever {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+.flod {
+  border: 1px solid gray;
+  color: gray;
+}
+h6 {
+  font-size: 23px;
+  color:black;
+}
+.forest {
+  width: 30%;
+}
+.bo {
+  height: 37%;
+}
+.hold {
+  border: 1px solid gray;
+}
+.bad{
+  border: 1px solid gray;
 }
