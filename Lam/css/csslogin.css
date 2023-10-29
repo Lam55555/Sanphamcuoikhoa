@@ -29,7 +29,8 @@ body{margin: 0; background: url(/Lam/img/img.jpg); font-family: Arial, Helvetica
 
 .icon{ width: 400px; position: absolute; right: -300px; margin-top: 6px;}
 
-
+.icon-hidden{display:none}
+.icon-lock{display:show;}
 
 .container{
     margin-top: 30px;

@@ -44,4 +44,30 @@ function AnimatedToggle(){
         document .body .style .backgroundImage ="url('/Lam/img/img.jpg')"
     }
 }
+
+function change()
+{
+  const ic_lock = document.getElementById("icon-lock");
+  const ic_hidden = document.getElementById("icon-hidden");
+  
+  const pass = document.getElementById("password");
+  if(pass.type == 'password'){
+    pass.setAttribute('type','text')
+    ic_lock.classList.add("icon-hidden")
+    ic_hidden.classList.remove('icon-hidden')
+
+    console.log("as");
+  }
+  else
+  {
+    pass.setAttribute('type','password')
+
+    ic_hidden.classList.add('icon-hidden')
+    ic_lock.classList.remove('icon-hidden')
+    
+    console.log("a");
+  }
+  
+
+}
   
