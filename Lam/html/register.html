@@ -8,13 +8,21 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <a href="../../Khoa/trang chủ.html"></a>
-  <div class="container">
-    <div class="toggle">
-        <div class="toggle-button" onclick="AnimatedToggle()"></div>
+  <div class="header">
+
+    <div class="navi">
+      <div class="lienket"><a href="/Khoa/trang chủ.html" class="trangchinh">
+        <span class="space">LUMIA</span><br><span class="space-1">ACCOUNT</span></a></div>
     </div>
-    <div class="text">OFF</div>
-</div>  
+
+    <div class="container">
+      <div class="toggle">
+          <div class="toggle-button" onclick="AnimatedToggle()"></div>
+      </div>
+  </div>
+
+  </div>
+   
 
             <div class="Login">
           
@@ -29,12 +37,14 @@
                   <div id="checkusername" class="warn"></div>
 
                   <div class="password" id="thongtin">PASSWORD:</div>
-                  <span class="icon" id="icone"><i class="fa-solid fa-lock"></i></span>
+                  <span class="icon" id="icon-lock"><i class="fa-solid fa-lock" onclick="change()" ></i></span>
+        <span class="icon icon-hidden" id="icon-hidden"><i class="fa-solid fa-lock-open" onclick="change()"></i></span>
                   <input type="password" class="nhapUsername" size="50px" id="password">
 
 
                   <div class="checkPass" id="thongtin">Confirm Password</div>
-                  <span class="icon" id="icone"><i class="fa-solid fa-lock"></i></span>
+                  <span class="icon" id="icon-lockk"><i class="fa-solid fa-lock" onclick="changee()" ></i></span>
+                  <span class="icon icon-hiddenn" id="icon-hiddenn"><i class="fa-solid fa-lock-open" onclick="changee()"></i></span>
                   <input type="password" id="checkPassword" size="50px">
                   <div id="checkconfPass"></div>
 

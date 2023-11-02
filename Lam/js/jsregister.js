@@ -42,11 +42,60 @@ function AnimatedToggle(){
     toggle.classList.toggle("active");
 
     if(toggle.classList.contains("active")){
-        text.innerHTML ="ON";
         document .body .style .backgroundImage = "url('/Lam/img/background-đơn-giản-và-đẹp-cho-điện-thoại-sony.jpg')"
     }
     else{
-        text.innerHTML="OFF";
         document .body .style .backgroundImage ="url('/Lam/img/img.jpg')"
     }
+}
+
+function change()
+{
+  const ic_lock = document.getElementById("icon-lock");
+  const ic_hidden = document.getElementById("icon-hidden");
+  
+  const pass = document.getElementById("password");
+  if(pass.type == 'password'){
+    pass.setAttribute('type','text')
+    ic_lock.classList.add("icon-hidden")
+    ic_hidden.classList.remove('icon-hidden')
+
+  }
+  else
+  {
+    pass.setAttribute('type','password')
+
+    ic_hidden.classList.add('icon-hidden')
+    ic_lock.classList.remove('icon-hidden')
+    
+  }
+  
+
+}
+
+function changee()
+{
+    const ic_lockk = document.getElementById("icon-lockk");
+  const ic_hiddenn = document.getElementById("icon-hiddenn");
+
+  const cpass = document.getElementById("checkPassword");
+  if(cpass.type =='password')
+  {
+    cpass.setAttribute('type','text')
+
+    ic_lockk.classList.add('icon-hiddenn')
+    ic_hiddenn.classList.remove('icon-hiddenn')
+
+    console.log("a");
+  }
+  else
+  {
+    cpass.setAttribute('type','password')
+
+    ic_hiddenn.classList.add('icon-hiddenn')
+    ic_lockk.classList.remove('icon-hiddenn')
+
+    console.log("b");
+    
+  }
 }
