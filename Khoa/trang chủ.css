@@ -141,7 +141,7 @@ siu {
   text-align: center;
   font-size: 35px;
 }
-speed {
+.speed {
   font-size: 23px;
 }
 
@@ -150,73 +150,41 @@ speed {
   justify-content: space-around;
   width: 100%;
   height: 200px;
+  margin-top: 80px;
 }
 .flod {
   border: 1px solid gray;
   color: gray;
-  width: 350px;
-  height:550px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  border-radius:3%;
-}
-h6 {
-  font-size: 23px;
-  color: black;
-}
-.forest {
-  width: 30%;
-  }
-h7{
-  font-size:23px;
-  color: black;
-}
-.hold {
-  border: 1px solid gray;
-  color:gray ;
-  width: 350px;
-  height:550px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  border-radius: 3%;
-}
-h8 {
-  font-size: 23px;
-  color:black;
-}
-.fan{
-  width: 30%;
-}
-h9{
-  font-size:23px;
-  color: black;
-}
-.bad{
-  border: 1px solid gray;
-  color: gray;
-  width: 350px;
+  width: 420px;
   height: 550px;
   text-align: center;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   display: flex;
   border-radius: 3%;
+  background-color: #f7f8fc;
+  padding: 24px;
+  gap: 20px;
 }
-h10 {
+
+.forest {
+  width: 50px;
+  height: 50px;
+}
+p {
   font-size: 23px;
-  color:black;
+  font-style:italic ;
+  color: black;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 11px;
 }
-.fin{
-  width:30%;
+
+i {
+  color: yellow;
 }
-h11{
-  font-size:23px;
+h1{
+  font-size:14px;
   color: black;
 }
