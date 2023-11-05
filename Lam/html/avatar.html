@@ -8,16 +8,13 @@
     <link rel="stylesheet" type="text/css" href="/Lam/css/cssavatar.css">
 </head>
 <body>
-    <form action="">
-        <img src="/Lam/img/img.jpg" alt="" id="image">
-        <input type="file" id="imageFile" accept="image/gif, image/png, image/jpeg" name="" onchange="chooseFile(this)">
-    </form>
-    <button type="submit"></button>
+    <h1>Avatar Generator</h1>
     
-    <!-- <button id="confirmavatar" onclick="conf_avatar()">Xác nhận</button> -->
-    <a id="show"></a>
+    <input type="file" accept="image/*" id="avatarInput">
+    <button onclick="uploadAvatar()">Upload Avatar</button>
+    
+    <div id="avatarPreview"></div>
     
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="/Lam/js/jsavatar.js"></script>
 </html>
