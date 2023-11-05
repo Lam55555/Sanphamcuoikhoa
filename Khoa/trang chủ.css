@@ -147,27 +147,76 @@ speed {
 
 .fever {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 200px;
 }
 .flod {
   border: 1px solid gray;
   color: gray;
+  width: 350px;
+  height:550px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius:3%;
 }
 h6 {
   font-size: 23px;
-  color:black;
+  color: black;
 }
 .forest {
   width: 30%;
-}
-.bo {
-  height: 37%;
+  }
+h7{
+  font-size:23px;
+  color: black;
 }
 .hold {
   border: 1px solid gray;
+  color:gray ;
+  width: 350px;
+  height:550px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 3%;
+}
+h8 {
+  font-size: 23px;
+  color:black;
+}
+.fan{
+  width: 30%;
+}
+h9{
+  font-size:23px;
+  color: black;
 }
 .bad{
   border: 1px solid gray;
+  color: gray;
+  width: 350px;
+  height: 550px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 3%;
+}
+h10 {
+  font-size: 23px;
+  color:black;
+}
+.fin{
+  width:30%;
+}
+h11{
+  font-size:23px;
+  color: black;
 }
