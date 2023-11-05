@@ -20,6 +20,47 @@ products = {
             image:'/Lam/img/img.jpg',
             price:'1$'
         },
+        {
+            productName:"Cặp tặng cô giáo",
+            image:"/Lam/img/pngtree-white-gray-wave-abstract-background-soft-design-graphic-banner-background-picture-image_1298688.jpg",
+            price:'45$'
+        },
+        {
+            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
+            image:'/Lam/img/img.jpg',
+            price:'1$'
+        },
+        {
+            productName:"Cặp tặng cô giáo",
+            image:"/Lam/img/pngtree-white-gray-wave-abstract-background-soft-design-graphic-banner-background-picture-image_1298688.jpg",
+            price:'45'
+        },
+        {
+            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
+            image:'/Lam/img/img.jpg',
+            price:'1'
+        },
+        {
+            productName:"Cặp tặng cô giáo",
+            image:"/Lam/img/pngtree-white-gray-wave-abstract-background-soft-design-graphic-banner-background-picture-image_1298688.jpg",
+            price:'45$'
+        },
+        {
+            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
+            image:'/Lam/img/img.jpg',
+            price:'1$'
+        },
+        {
+            productName:"Cặp tặng cô giáo",
+            image:"/Lam/img/pngtree-white-gray-wave-abstract-background-soft-design-graphic-banner-background-picture-image_1298688.jpg",
+            price:'45$'
+        },
+        {
+            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
+            image:'/Lam/img/img.jpg',
+            price:'1$'
+        },
+        
     ]
 }
 
