@@ -17,14 +17,25 @@ height: 40px;
     display: flex;
     justify-content: end;
 }
+#logoutButton{
+height: 40px;
 
+color: rgb(83, 72, 206);
+padding: 16px;
+font-size: 16px;
+border: none;
+background-color:gold ;
+}
+#logoutButton:hover{
+    background-color: #e91e63;
+}
 
 /*login*/
 
 .daLogin{
 display: flex;
 justify-content: space-around;
-background-color: rgb(163, 178, 178);
+background-color: rgb(35, 220, 220);
 justify-items: center;
 width: 100%;
 height: 50px;
@@ -45,6 +56,7 @@ height: 50px;
 .dropdown {
     position: relative;
     display: inline-block;
+    background-color: y;
     
 }
 .dropbtn {
@@ -66,7 +78,7 @@ height: 50px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+}   
   
 .dropdown-content a:hover {background-color:rgb(226, 195, 43)}
   
@@ -79,7 +91,7 @@ height: 50px;
 }
 
 .bestseller{
-    color: aliceblue;
+   color: rgb(249, 249, 71);
     display: flex;
     align-items: center;
     font-size: xx-large;
@@ -95,12 +107,12 @@ height: 50px;
 .product{
     display: flex;
     
-   border: 3px solid blue;
+
 }
 .hienthi{
     display: flex;
     width: 70%;
-    border: 4px solid gold;
+   
 }
 #bag1{
     width: 600px;
