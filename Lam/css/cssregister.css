@@ -20,7 +20,7 @@ input{border:none; border-bottom: 1px solid black; background: transparent; font
 
 a{text-decoration: none; color: black;}
 .menu{ height: 30px; display: flex;}
-body{margin: 0; background: url(/Lam/img/img.jpg);}
+body{margin: 0; background: url(/Lam/img/bg2.jpg);}
 .footer{text-align: center;}
 .menudangky{margin-left: 30px; color: blue; font-size: 18px;}
 .left{width: 275px; border: 1px solid gray; background-color: gray;}
