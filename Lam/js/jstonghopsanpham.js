@@ -1,9 +1,9 @@
 products = {
     data:[
         {
-            productName:"Cặp tặng cô giáo",
+            productName:"Túi sách giả",
             image:"/Bach/trang mua đồ/img/BAG1.jpg",
-            price:'45$',
+            price:'950.000',
             link:"/Bach/trang mua đồ/CHINH.html"
         },
         {
@@ -19,14 +19,14 @@ products = {
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
+            productName:"Túi xách nữ thời trang",
             image:'/Bach/trang mua đồ/img/Bag16.jpg',
             price:'1$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Cặp tặng cô giáo",
-            image:"/Bach/trang mua đồ/img/Bag17.jpg",
+            productName:"Gối massage giảm mệt mỏi",
+            image:"/Lam/img/goimassage.jpg",
             price:'45$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
@@ -37,19 +37,19 @@ products = {
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Cặp tặng cô giáo",
-            image:"/Bach/trang mua đồ/img/hoa2.jpg",
+            productName:"Bộ 5 thước dụng cụ giảng dạy dành cho giáo viên dễ dàng mang theo",
+            image:"/Lam/img/bodungcu.jpg",
             price:'45',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
-            image:'/Bach/trang mua đồ/img/hoa3.jpg',
-            price:'1',
+            productName:"Bình nước giữ nhiệt thuỷ tinh",
+            image:'/Lam/img/binhnuoc.jpg',
+            price:'22.500',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Cặp tặng cô giáo",
+            productName:"Túi xách đen cho nữ",
             image:"/Bach/trang mua đồ/img/BAG12.jpg",
             price:'45$',
             link:'/Bach/trang mua đồ/CHINH.html'
