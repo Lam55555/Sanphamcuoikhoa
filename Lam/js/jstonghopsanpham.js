@@ -2,19 +2,19 @@ products = {
     data:[
         {
             productName:"Cặp tặng cô giáo",
-            image:"/Bach/trang mua đồ/img/BAG12.jpg",
+            image:"/Bach/trang mua đồ/img/BAG1.jpg",
             price:'45$',
             link:"/Bach/trang mua đồ/CHINH.html"
         },
         {
-            productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
-            image:'/Bach/trang mua đồ/img/Bag14.jpg',
+            productName:"Đèn tường",
+            image:'/Lam/img/dentuong.jpg',
             price:'1$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
-            productName:"Cặp tặng cô giáo",
-            image:"/Bach/trang mua đồ/img/Bag15.jpg",
+            productName:"Hoa Cầm Tay Trong Suốt diy",
+            image:"/Lam/img/hoatanggiaovien.jpg",
             price:'45$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
@@ -32,8 +32,8 @@ products = {
         },
         {
             productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
-            image:'/Bach/trang mua đồ/img/hoa1.jpg',
-            price:'1$',
+            image:'/Lam/img/bohoa.jpg',
+            price:'49000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
@@ -50,7 +50,7 @@ products = {
         },
         {
             productName:"Cặp tặng cô giáo",
-            image:"/Bach/trang mua đồ/img/BAG1.jpg",
+            image:"/Bach/trang mua đồ/img/BAG12.jpg",
             price:'45$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
@@ -63,12 +63,12 @@ products = {
         {
             productName:"Nước Hoa Nữ Cooc SiLiYa 50 ML",
             image:"/Lam/img/nuochoanu.jpg",
-            price:'45$',
+            price:'22000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
-            image:"/Lam/img/phanbang.jpg",
+            image:"/Lam/img/pvb.jpg",
             price:'1$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
@@ -100,8 +100,9 @@ products = {
             name.setAttribute('href',i.link)
             container.appendChild(name)
         
-            let price=document.createElement("h6")
-            price.innerText = "$" + i.price
+            let price=document.createElement("p")
+            price.classList.add("price")
+            price.innerText =  i.price+ " đ"
             container.appendChild(price)
         
             card.appendChild(container)
