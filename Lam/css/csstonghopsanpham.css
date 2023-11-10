@@ -8,12 +8,15 @@
 .header{background-color: #e8e8e9; width: 160px; padding: 0 10px;}
 .container{ width: 230px; height: 130px;}
 .tong{ margin-left: 30px; width: 230px; background: transparent; margin-top: 10px;}
-.tong:hover{box-shadow: 2px 2px 2px 10px rgba(0,0,0,0.2);}
+.tong:hover{box-shadow: -0.5px -1px 6px 8px rgba(0,0,0,0.2);} 
+/*vị trí của bóng theo hướng bên phải, vị trí của bóng tính ở phía dưới, độ thanh của bóng, độ lớn của bóng */
+
 *{ margin: 0;}
 .menu{background-color: #F6F7F8}
 .menu a{text-decoration: none; font-size: 13px; color:white; text-align: center; display: block;}
 .div-dropbtn{display: flex; margin-top: 15.5px; 
 }
+
 .tt{font-weight: bold;width: auto; height: 50px; 
   padding: 0 20px;
   align-items: center; display: flex; color: black; background-color: #F6F7F8;}
