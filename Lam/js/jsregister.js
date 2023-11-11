@@ -45,7 +45,7 @@ function AnimatedToggle(){
         document .body .style .backgroundImage = "url('/Lam/img/background-đơn-giản-và-đẹp-cho-điện-thoại-sony.jpg')"
     }
     else{
-        document .body .style .backgroundImage ="url('/Lam/img/img.jpg')"
+        document .body .style .backgroundImage ="url('/Lam/img/bg2.jpg')"
     }
 }
 

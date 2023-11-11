@@ -17,7 +17,7 @@ const password = document.getElementById("password").value;
     }
     else if(username==account.username&&password==account.password)
     {
-   window.location.href="/Bach/trang mua đồ/CHINH.html"
+   window.location.href="/Lam/html/tonghopsanpham.html"
    localStorage.setItem("login",username)
     }
         
@@ -36,12 +36,10 @@ function AnimatedToggle(){
     toggle.classList.toggle("active");
 
     if(toggle.classList.contains("active")){
-        text.innerHTML ="ON";
         document .body .style .backgroundImage = "url('/Lam/img/background-đơn-giản-và-đẹp-cho-điện-thoại-sony.jpg')"
     }
     else{
-        text.innerHTML="OFF";
-        document .body .style .backgroundImage ="url('/Lam/img/img.jpg')"
+        document .body .style .backgroundImage ="url('/Lam/img/bg2.jpg')"
     }
 }
 

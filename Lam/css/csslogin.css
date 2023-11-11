@@ -8,7 +8,7 @@ input{border: none; border-bottom: 1px solid black; background: transparent; fon
 
 .forgotpass{margin-left: 120px;}
 
-.login__container{ width: 530px; margin: auto; border: 2px solid rgba(255, 255,255, .2); backdrop-filter:blur(20px); background: transparent; height: 350px; margin-top: 20px;}
+.login__container{ width: 530px; margin: auto; border: 1px solid black; backdrop-filter:blur(20px); background: transparent; height: 350px; margin-top: 20px;box-shadow:  5px 8px rgba(0, 0, 0, 0.2);}
 
 .hdangnhap{font-size: 26px; background:transparent; text-align: center; margin-top: 10px;}
 
@@ -17,7 +17,7 @@ button{height: 35px; cursor: pointer;}
 a{text-decoration: none; color: black;}
 a:hover{color: blue; text-decoration: underline;}
 
-body{margin: 0; background: url(/Lam/img/img.jpg); font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0; background: url(/Lam/img/bg2.jpg); font-family: Arial, Helvetica, sans-serif;}
 
 .menudangky{margin-left: 30px; color: blue; font-size: 18px;}
 .footer .btnlogin{width:100% ;border-radius: 15px 15px;}
@@ -43,7 +43,7 @@ body{margin: 0; background: url(/Lam/img/img.jpg); font-family: Arial, Helvetica
 }
 
 .container .toggle{
-    border: 2px solid rgba(255, 255,255, .2);
+    border: 2px solid black;
     backdrop-filter: blur(2px);
     position: absolute;
     width: 60px;
@@ -59,7 +59,7 @@ body{margin: 0; background: url(/Lam/img/img.jpg); font-family: Arial, Helvetica
     left: 5px; 
     width: 25px;
     height: 20px;
-    background: yellowgreen;
+    background: brown;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s;
