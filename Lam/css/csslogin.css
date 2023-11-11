@@ -8,7 +8,7 @@ input{border: none; border-bottom: 1px solid black; background: transparent; fon
 
 .forgotpass{margin-left: 120px;}
 
-.login__container{ width: 530px; margin: auto; border: 2px solid rgba(255, 255,255, .2); backdrop-filter:blur(20px); background: transparent; height: 350px; margin-top: 20px;}
+.login__container{ width: 530px; margin: auto; border: 1px solid black; backdrop-filter:blur(20px); background: transparent; height: 350px; margin-top: 20px;box-shadow:  5px 8px rgba(0, 0, 0, 0.2);}
 
 .hdangnhap{font-size: 26px; background:transparent; text-align: center; margin-top: 10px;}
 

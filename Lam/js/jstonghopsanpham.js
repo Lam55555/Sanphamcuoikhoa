@@ -203,24 +203,42 @@ document.getElementById("search").addEventListener("click",() =>{
 // ckavt.appendChild(images);
 
 
-let slideIndex = 0;
+let slideIndex = 0; //tạo biến slideIndex
 showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+  let slides = document.getElementsByClassName("mySlides"); //mySlide [0,1,2] 3 phần tử
+  let dots = document.getElementsByClassName("dot"); //dots [0,1,2] 3 phần tử
 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  for (i = 0; i < slides.length; i++) { //slide.length là độ dài của phần tử ! i là ảnh đầu tiên và ->  <2 
+    slides[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  slideIndex++; //slideIndex bắt đầu chạy giá trị
+  if (slideIndex > slides.length) {slideIndex = 1} //nếu như slideIndex lớn hơn độ dài của slides thì sẽ quay trở lại vị trí 1
       
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+  for (i = 0; i < dots.length; i++) { //dot.length = 2;
+    dots[i].className = dots[i].className.replace(" active", ""); //lấy class của biến dots && thêm một class active khi [i]  chạy đến vị trí của phần tử đó
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+const loginStatusElement = document.getElementById('loginStatus');
+document.addEventListener('DOMContentLoaded', function() {
+
+    if (localStorage.getItem("login")!=null) {
+        // Nếu đã đăng nhập, hiển thị tên người dùng
+        const username = localStorage.getItem("login");
+        // console.log(username) // Thay bằng tên người dùng thực tế
+        loginStatusElement.textContent = `Xin chào, ${username}!`;
+    } else {
+        // Nếu chưa đăng nhập, hiển thị nút đăng nhập
+        const loginLink = document.createElement('a');
+        loginLink.href = '/Lam/html/login.html';
+        loginLink.textContent = 'Đăng nhập';
+        loginStatusElement.appendChild(loginLink);
+    }
+});
