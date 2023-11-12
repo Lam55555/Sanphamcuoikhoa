@@ -1,6 +1,17 @@
 *{font-family:Arial, Helvetica, sans-serif;}
 .imgs{width: 230px; height: 200px;}
 .than{height: auto; display: flex; margin-top: 30px;}
+.login{
+  display: flex;
+  align-items: center;
+}
+#loginStatus{
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
 #product{display: flex; width: auto; width: 1060px; flex-wrap: wrap;}
 #search-input{height: 15px;}
 .thanhtimkiem{margin-left: 300px; background-color: #F6F7F8; display: flex; align-items: center; height: 100%;}

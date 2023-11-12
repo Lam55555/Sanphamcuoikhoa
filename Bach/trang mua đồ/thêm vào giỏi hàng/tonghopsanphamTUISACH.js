@@ -224,3 +224,20 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+const loginStatusElement = document.getElementById('loginStatus');
+document.addEventListener('DOMContentLoaded', function() {
+
+    if (localStorage.getItem("login")!=null) {
+        // Nếu đã đăng nhập, hiển thị tên người dùng
+        const username = localStorage.getItem("login");
+        // console.log(username) // Thay bằng tên người dùng thực tế
+        loginStatusElement.textContent = `Xin chào, ${username}!`;
+    } else {
+        // Nếu chưa đăng nhập, hiển thị nút đăng nhập
+        const loginLink = document.createElement('a');
+        loginLink.href = '/Lam/html/login.html';
+        loginLink.textContent = 'Đăng nhập';
+        loginStatusElement.appendChild(loginLink);
+    }
+});
