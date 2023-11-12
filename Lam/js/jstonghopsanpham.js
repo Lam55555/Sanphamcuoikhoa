@@ -7,8 +7,8 @@ products = {
             link:"/Bach/trang mua đồ/CHINH.html"
         },
         {
-            productName:"Đèn tường",
-            image:'/Lam/img/dentuong.jpg',
+            productName:"Hoa bó to",
+            image:'/Bach/trang mua đồ/img/hoa4.jpg',
             price:'1$',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
