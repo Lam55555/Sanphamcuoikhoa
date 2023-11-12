@@ -9,37 +9,37 @@ products = {
         {
             productName:"Hoa bó to",
             image:'/Bach/trang mua đồ/img/hoa4.jpg',
-            price:'1$',
+            price:'700.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Hoa Cầm Tay Trong Suốt diy",
             image:"/Lam/img/hoatanggiaovien.jpg",
-            price:'45$',
+            price:'45.OOO',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Túi xách nữ thời trang",
             image:'/Bach/trang mua đồ/img/Bag16.jpg',
-            price:'1$',
+            price:'100.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Gối massage giảm mệt mỏi",
             image:"/Lam/img/goimassage.jpg",
-            price:'45$',
+            price:'45.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
             image:'/Lam/img/bohoa.jpg',
-            price:'49000',
+            price:'49.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Bộ 5 thước dụng cụ giảng dạy dành cho giáo viên dễ dàng mang theo",
             image:"/Lam/img/bodungcu.jpg",
-            price:'45',
+            price:'45.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
@@ -51,25 +51,25 @@ products = {
         {
             productName:"Túi xách đen cho nữ",
             image:"/Bach/trang mua đồ/img/BAG12.jpg",
-            price:'45$',
+            price:'84.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Nước hoa nam VERSACE EROS 100ml",
             image:"/Lam/img/nuochoanam.jpg",
-            price:'1$',
+            price:'189.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Nước Hoa Nữ Cooc SiLiYa 50 ML",
             image:"/Lam/img/nuochoanu.jpg",
-            price:'22000',
+            price:'22.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         {
             productName:"Phấn Viết Bảng Mic Trắng/ Màu (Hộp 10-100V)",
             image:"/Lam/img/pvb.jpg",
-            price:'1$',
+            price:'200.000',
             link:'/Bach/trang mua đồ/CHINH.html'
         },
         
