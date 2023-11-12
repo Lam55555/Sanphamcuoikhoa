@@ -1,6 +1,6 @@
 const loginStatusElement = document.getElementById('loginStatus');
 document.addEventListener('DOMContentLoaded', function() {
-    // addEventListener thêm quản lí bảo trì .  DOMContentLoaded load hết tất cả chức năng function là chắc năng còn const là người sở hữa nó
+
     if (localStorage.getItem("login")!=null) {
         // Nếu đã đăng nhập, hiển thị tên người dùng
         const username = localStorage.getItem("login");
@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         loginLink.href = '/Lam/html/login.html';
         loginLink.textContent = 'Đăng nhập';
         loginStatusElement.appendChild(loginLink);
-        // appendChild thành phần con của div
     }
 });
 
